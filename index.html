@@ -10,55 +10,63 @@
     <div class="leftSide">
         <h1>Social media shared today, tomorrow or by location</h1>
         <img src="/assets/phoneImg.png" alt="Phone-Display">
-        <img src="/assets/Slider dots.png" alt="Slider-dots">
+        <img src="/assets/Slider dots.png" alt="Slider-dots" class="slider">
     </div>
-    <div>
-        <img src="/assets/Logo.png" alt="Logo">
+    <div class="rightSide">
+        <img src="/assets/Logo.png" alt="Logo" class="logo">
         <form action="">
-            <h1>Create account</h1>
-            <h2> For business, band or celebrity</h2>
             <div>
-                <div>
-                    <div>
+                <h1>Create account</h1>
+                <h2> For business, band or celebrity</h2>
+            </div>
+            <div class="innerForm">
+                <div class="row">
+                    <div class="column">
                         <label for="firstName">First Name</label>
                         <input type="text">
                     </div>
-                    <div>
+                    <div class="column">
                         <label for="lastName">Last Name</label>
                         <input type="text">
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="column">
                         <label for="Email">Email or phone number</label>
                         <input type="email">
                     </div>
-                    <div>
+                    <div class="column">
                        <label for="DOB">Date of birth <span>(MM/DD/YY)</span></label>
                         <input type="text">
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row">
+                    <div class="column">
                         <label for="Password">Password</label>
                         <input type="text">
                     </div>
-                    <div>
+                    <div class="column">
                         <label for="Password">Confirm Password</label>
                         <input type="password">
                     </div>
                 </div>
-                <div>
-                    <input type="checkbox" name="rememberMe" id="rememberMe">
-                    <label for="rememberMe">Remember me</label>
+                <div class="rememberMe">
+                    <div>
+                        <input type="checkbox" name="rememberMe" id="rememberMe">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
                     <a href="#">Forgot Password?</a>
                 </div>
-                <input type="checkbox" name="T&C" id="Terms">
-                <label for="Terms">I agree to all the <span>Terms</span> and <span>Privacy Policy</span></label>
-                <button>Create account</button>
-                <button><img src="/assets/googleImg.png" alt="Google-Image"> Sign-in with google</button>
+                <div>
+                    <input type="checkbox" name="T&C" id="Terms">
+                    <label for="Terms">I agree to all the <span>Terms</span> and <span>Privacy Policy</span></label>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Create account</button>
+                    <button><img src="/assets/googleImg.png" alt="Google-Image"> Sign-in with google</button>
+                </div>
+                <h2>Already have an account? <a href="#">Log in</a></h2>
             </div>
-            <h2>Already have an account? <a href="#">Log in</a></h2>
         </form>
         <div>
             <img src="/assets/Google Play Badge.png" alt="Google Play">

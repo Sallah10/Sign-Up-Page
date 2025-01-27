@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+h2,
+label {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+label {
+  font-size: 1em;
+}
+.leftSide {
+  background-color: rgb(67, 67, 238);
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4em;
+  padding: 6em;
+}
+.leftSide > h1 {
+  color: white;
+  text-align: center;
+}
+.slider {
+  width: 120px;
+  height: 40px;
+}
+.rightSide {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 5em;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+}
+form {
+  display: flex;
+  gap: 3.5em;
+  flex-direction: column;
+}
+.innerForm {
+  display: flex;
+  gap: 1.5em;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  gap: 4em;
+  align-items: center;
+  justify-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.rememberMe {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  display: flex;
+  align-items: center;
+}
