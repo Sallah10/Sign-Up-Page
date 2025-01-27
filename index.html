@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="leftSide">
         <h1>Social media shared today, tomorrow or by location</h1>
@@ -14,40 +16,41 @@
     </div>
     <div class="rightSide">
         <img src="/assets/Logo.png" alt="Logo" class="logo">
-        <form action="">
+        <form action="script.js" id="form">
             <div>
                 <h1>Create account</h1>
                 <h2> For business, band or celebrity</h2>
             </div>
+            <!-- <div class="msg"></div> -->
             <div class="innerForm">
                 <div class="row">
                     <div class="column">
                         <label for="firstName">First Name</label>
-                        <input type="text">
+                        <input type="text" id="firstName">
                     </div>
                     <div class="column">
                         <label for="lastName">Last Name</label>
-                        <input type="text">
+                        <input type="text" id="lastName">
                     </div>
                 </div>
                 <div class="row">
                     <div class="column">
                         <label for="Email">Email or phone number</label>
-                        <input type="email">
+                        <input type="email" id="email">
                     </div>
                     <div class="column">
-                       <label for="DOB">Date of birth <span>(MM/DD/YY)</span></label>
-                        <input type="text">
+                        <label for="DOB">Date of birth <span>(MM/DD/YY)</span></label>
+                        <input type="text" id="dob">
                     </div>
                 </div>
                 <div class="row">
                     <div class="column">
                         <label for="Password">Password</label>
-                        <input type="text">
+                        <input type="password" id="password">
                     </div>
                     <div class="column">
                         <label for="Password">Confirm Password</label>
-                        <input type="password">
+                        <input type="password" id="confirmPassword">
                     </div>
                 </div>
                 <div class="rememberMe">
@@ -75,4 +78,5 @@
     </div>
 </body>
 <script src="./script.js"></script>
+
 </html>

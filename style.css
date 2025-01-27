@@ -18,6 +18,9 @@ label {
 label {
   font-size: 1em;
 }
+.msg {
+  color: red;
+}
 .leftSide {
   background-color: rgb(67, 67, 238);
   display: flex;
