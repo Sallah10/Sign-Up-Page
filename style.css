@@ -82,3 +82,10 @@ button {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width = 1034px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
