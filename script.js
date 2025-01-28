@@ -13,12 +13,14 @@ function submitForm(e) {
     e.preventDefault();
 
     //  lastName.value === '' email.value === '' dob.value === ''
-    if (firstName.value === '') {
+    if (firstName.value === '' || lastName.value === '' || email.value === '' || dob.value === '') {
         if (password.value === !confirmPassword.value) {
             msg.innerHTML = 'incorrect Password';
+            window.alert('incorrect Password')
         }
         else {
             msg.innerHTML = 'please enter all field';
+            window.alert('please enter all field')
         }
 
         setTimeout(() => msg.remove(), 3000);
