@@ -248,8 +248,8 @@ button {
     font-size: 0.9em;
   }
   .rightSide {
-    align-items: start;
-    margin-left: auto;
+    /* align-items: start;
+    margin-left: auto; */
   }
   .row {
     width: 100%;
