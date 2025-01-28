@@ -40,7 +40,7 @@ const dob = document.querySelector('#dob');
 const password = document.querySelector('#password');
 const confirmPassword = document.querySelector('#confirmPassword');
 const termsCheckbox = document.querySelector('#terms');
-const RememberMe = document.querySelector('#rememberMe');
+// const RememberMe = document.querySelector('#rememberMe');
 const msg = document.querySelector('.msg');
 
 form.addEventListener('submit', submitForm);
@@ -70,12 +70,12 @@ function submitForm(e) {
         msg.textContent = 'You must agree to the terms and conditions';
         msg.style.color = 'red';
         window.alert('You must agree to the terms and conditions');
-    } else if (!RememberMe.checked) {
-        // Check if the checkbox is checked
-        msg.textContent = 'You must agree to the terms and conditions';
-        msg.style.color = 'red';
-        window.alert('You must agree to the terms and conditions');
-    } else {
+        // } else if (!RememberMe.checked) {
+        //     // Check if the checkbox is checked
+        //     msg.textContent = 'You must agree to the terms and conditions';
+        //     msg.style.color = 'red';
+        //     window.alert('You must agree to the terms and conditions');
+        // } else {
         // Success: Form submission
         msg.textContent = 'Form submitted successfully!';
         msg.style.color = 'green';
