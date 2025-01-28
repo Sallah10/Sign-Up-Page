@@ -270,6 +270,12 @@ button {
   }
   button {
     max-width: 200px;
+    font-size: 12px;
+  }
+  .blue-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .h2-center {
     font-size: 15px;
