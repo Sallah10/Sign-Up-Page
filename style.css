@@ -115,6 +115,9 @@ form {
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
+.row input:focus {
+  border: 1px solid #007aff;
+}
 .input-container {
   position: relative;
   display: inline-block;
