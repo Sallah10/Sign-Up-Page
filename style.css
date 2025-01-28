@@ -80,7 +80,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 3em;
-  padding: 4em;
+  padding: 3em;
   width: 100%;
   height: 100%;
 }
