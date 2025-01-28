@@ -16,7 +16,9 @@ h1 {
   width: 100%;
 }
 h2,
-label {
+label,
+a {
+  font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 1.2rem;
 }
@@ -33,7 +35,7 @@ label {
   align-items: center;
   flex-direction: column;
   gap: 4em;
-  padding: 4em;
+  padding: 3em;
   position: relative;
   width: 100%;
   height: 100%;
@@ -58,11 +60,12 @@ label {
   height: 40px;
 }
 .rightSide {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   display: flex;
   flex-direction: column;
   gap: 3em;
-  padding: 5em;
+  padding: 4em;
+  width: 100%;
   height: 100%;
 }
 .logo {
@@ -85,6 +88,17 @@ form {
   align-items: center;
   justify-items: center;
 }
+.row input {
+  /* width: 358px; */
+  width: 260px;
+  height: 48px;
+  top: 24px;
+  gap: 0px;
+  padding: 0.5em;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
 .column {
   display: flex;
   flex-direction: column;
@@ -94,6 +108,13 @@ form {
   display: flex;
   justify-content: space-between;
 }
+a {
+  color: #007aff;
+  text-decoration: none;
+}
+.h2-center {
+  text-align: center;
+}
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -101,11 +122,101 @@ form {
 button {
   display: flex;
   align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.blue-btn {
+  background-color: #007aff;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.white-btn {
+  background-color: #2d3748;
+  color: white;
+  padding: 0.5em 1em;
+  border: 1px solid #007aff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 3em;
 }
 
 @media screen and (max-width: 1024px) {
   body {
     display: flex;
     flex-direction: column;
+  }
+  .rightSide {
+    padding: 6em;
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .row input {
+    width: 258px;
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+    width: 100%;
+  }
+  h1 {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    /* font-size: 2rem; */
+    font-size: 20px;
+    line-height: 37px;
+    width: 100%;
+  }
+  h2,
+  label,
+  a {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  label {
+    font-size: 0.9em;
+  }
+  .rightSide {
+    align-items: start;
+  }
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .rememberMe {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  button {
+    max-width: 200px;
+  }
+  .h2-center {
+    font-size: 15px;
+    text-align: left;
   }
 }
