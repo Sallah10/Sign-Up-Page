@@ -44,13 +44,7 @@ label {
   color: white;
   text-align: center;
 }
-/* .container {
-  position: relative;
-} */
-/* .container img {
-  position: absolute;
-  width: 500px;
-} */
+
 .container {
   width: 100%;
   display: flex;
@@ -61,8 +55,6 @@ label {
   background-image: linear-gradient(to right, #0f70da, #007aff);
 }
 .slider {
-  /* width: 120px;
-  height: 40px; */
   width: Hug (67px) px;
   height: Hug (20px) px;
   top: 882px;
@@ -133,7 +125,7 @@ form {
 }
 
 .input-container input {
-  padding-left: 40px; /* Add padding to accommodate the image */
+  padding-left: 40px; /* Add padding to accommodate the image - test */
   outline: none;
 }
 .column {
@@ -183,10 +175,6 @@ button {
   cursor: pointer;
   width: 258px;
   height: 48px;
-  /* top: 672px;
-  left: 976px;
-  gap: 0px;
-  opacity: 0px; */
 }
 .white-btn {
   background-color: #2d3748;
