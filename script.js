@@ -40,7 +40,7 @@ function submitForm(e) {
         msg.textContent = 'Form submitted successfully!';
         msg.style.color = 'green';
         window.alert('Form submitted successfully!');
-
+        console.log(form.value)
         // Reset form fields
         form.reset();
     }
