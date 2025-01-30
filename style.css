@@ -25,9 +25,9 @@ a {
 label {
   font-size: 1em;
 }
-.msg {
+/* .msg {
   color: red;
-}
+} */
 .leftSide {
   background-image: linear-gradient(to right, #007aff, #0f70da);
   display: flex;
@@ -61,11 +61,6 @@ label {
   left: 372px;
   gap: 16px;
   opacity: 0px;
-}
-@media screen and (min-width: 1024px) {
-  .leftSide {
-    height: 958px;
-  }
 }
 .rightSide {
   /* background-color: whitesmoke; */
@@ -192,6 +187,13 @@ button {
   align-items: center;
   gap: 3em;
   padding-bottom: 5px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+  .leftSide {
+    height: 958px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
